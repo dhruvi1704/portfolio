@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project Image</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        /* Global Styles */
+        body {
+            background-color: #081b29; /* Dark theme */
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #0ef; /* Neon blue highlight */
+            margin-bottom: 20px;
+        }
+
+        /* Weather Image */
+        .weather-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .weather-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #0ef;
+            box-shadow: 0px 0px 20px #0ef;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .weather-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 30px #0ef;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #0ef;
+            color: #081b29;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .back-btn:hover {
+            background: #fff;
+            color: #081b29;
+            box-shadow: 0px 0px 10px #0ef;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Weather Dashboard Screenshot</h1>
+
+    <div class="weather-container">
+        <img src="../images/weather.png" alt="Weather Project Screenshot">
+    </div>
+
+    <a href="index.html#projects" class="back-btn">⬅ Back to Projects</a>
+</body>
+</html>
