@@ -50,7 +50,7 @@ const projects = [
     description:
       "A sleek and modern personal portfolio website.designed to showcase my projects, skills, and achievements. This website is fully responsive and features smooth animations, interactive UI components, and a dark theme aesthetic",
     tech: "Next.js, Tailwind CSS,Frame Motion",
-    github: "#",
+    github: "https://github.com/dhruvi1704/portfolio",
     live: "portfolioimg.html",
   },
   {
@@ -234,7 +234,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-
   const activeAccordion = document.querySelector(".accordion-header.active");
   if (activeAccordion) {
     activeAccordion.click();
@@ -272,7 +271,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (contactForm) {
     contactForm.addEventListener("submit", async function (event) {
-      event.preventDefault(); 
+      event.preventDefault();
 
       const name = document.getElementById("name").value;
       const email = document.getElementById("email").value;
